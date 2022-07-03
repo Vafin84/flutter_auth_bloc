@@ -89,21 +89,6 @@ class _UserCard extends StatelessWidget {
               );
             },
             orElse: () => const SizedBox.shrink());
-
-        // if (state.inProgress) {
-        //   return const CircularProgressIndicator();
-        // }
-        // if (state.errorMessage?.isNotEmpty == true) {
-        //   return Text(state.errorMessage!);
-        // }
-        // if (state.user == null) {
-        //   return const Text("Пользователь null");
-        // } else {
-        //   return Text(
-        //     " Авторизован ID: ${state.user!.id!}",
-        //     style: const TextStyle(color: Colors.teal, fontSize: 30),
-        //   );
-        // }
       },
     );
   }
